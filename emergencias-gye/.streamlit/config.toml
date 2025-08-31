@@ -1,9 +1,7 @@
 [server]
 headless = true
 enableCORS = false
-enableXsrfProtection = true
-maxUploadSize = 200
+enableXsrfProtection = false
 
-[theme]
-base = "light"
-primaryColor = "#7c3aed"
+[browser]
+gatherUsageStats = false
